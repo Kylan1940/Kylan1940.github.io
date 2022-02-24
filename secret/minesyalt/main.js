@@ -1,1 +1,0 @@
-var secret_console_minesyalt = prompt("Masukkan Password :"); if (secret_console_minesyalt === "KylanGantengAnjay"){ document.write("COMING SOON")}
