@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Kylan Website</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-   <body>
-     <style>
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
@@ -108,39 +98,8 @@ input[type="checkbox"]{
     color: cyan;
   }
 }
-.content {
-  padding-top: 10px;
-  padding-left: 10px;
+.content{
+ background-color: brown;
+ width: 100%;
+ height: 100%;
 }
-
-     </style>
-      <nav>
-         <div class="logo">
-            Kylan1940
-         </div>
-         <input type="checkbox" id="click">
-         <label for="click" class="menu-btn">
-         <i class="fas fa-bars"></i>
-         </label>
-         <ul>
-            <li><a href="https://Kylan1940.github.io">Home</a></li>
-            <li><a href="https://Kylan1940.github.io/donate">Donate</a></li>
-            <li><a class="active" href="https://Kylan1940.github.io/download">Download</a></li>
-            <li><a href="https://Kylan1940.github.io/social">Social Media</a></li>
-         </ul>
-      </nav>
-      <div class="content">
-        <center>
-        <img src="img/1.jpg" width="320px" height="150px">
-        <a href="https://kylan1940.github.io/download/1" style="color:white">
-          <h2 style="color:black">Find The Button v1</h2>
-        </a>
-        <p><br/></p>
-        <img src="img/2.jpg" width="320px" height="150px">
-        <a href="https://kylan1940.github.io/download/2" style="color:white">
-          <h2 style="color:black">Escape From Bedrock Prison v1</h2>
-        </a>
-        </center>
-      </div>
-   </body>
-</html>
