@@ -1,31 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Kylan Website</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <link rel="stylesheet" href="style.css"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-   <body>
-     <style>
-     </style>
-     <div class="content">
-      <nav>
-         <div class="logo">
-            Kylan1940
-         </div>
-         <input type="checkbox" id="click">
-         <label for="click" class="menu-btn">
-         <i class="fas fa-bars"></i>
-         </label>
-         <ul>
-            <li><a class="active" href="https://Kylan1940.github.io">Home</a></li>
-            <li><a href="donate">Donate</a></li>
-            <li><a href="download">Download</a></li>
-            <li><a href="social">Social Media</a></li>
-         </ul>
-      </nav>
-     </div>
-   </body>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./text/css/style.css"/>
+  <title>Kylan Website</title>
+</head>
+
+<body>
+  <center>
+    <div class="aboutme">
+      <h4 style="margin-top: 5px">ABOUT ME</h4>
+      <p style="margin-top: -15px; margin-bottom: 5px">Hello! I am Kylan, Newbie Developer since 2020. I can code in JavaScript, PHP.</p>
+    </div>
+    <div class="social">
+      <h4 style="margin-top: 5px">SOCIAL MEDIA</h4>
+      <a href="https://youtube.com/c/Kylan1940">YOUTUBE</a>
+      <a href="https://instagram.com/nx.kyln">INSTAGRAM</a>
+      <a href="https://twitter.com/itz____kylan">TWITTER</a>
+      <a href="https://github.com/Kylan1940">GITHUB</a>
+    </div> 
+    <div class="donate">
+      <h4 style="margin-top: 5px">DONATE</h4>
+      <p style="margin-top: -15px; margin-bottom: 5px">Donate for support me. (IDR/Rupiah Only) - (Paypal Soon)</p>
+      <a href="https://trakteer.id/Kylan1940">TRAKTEER</a>
+    </div>
+    <div class="download">
+      <h4 style="margin-top: 5px">DOWNLOAD</h4>
+      <a href="download/1.html">Find The Button v1</a>
+    </div>
+  </center>
+  <script>
+    const buttons = document.querySelectorAll('a');
+    buttons.forEach(btn =>{
+      btn.addEventListener('click', function (e) {
+        let x = e.clintX - e.target.offsetLeft;
+        let y = e.clintY - e.target.offsetTop;
+        
+        let ripples = document.createElement('span');
+        ripples.style.left = x + 'px';
+        ripples.style.top = y + 'px';
+        this.appendChild(ripples);
+        
+        setTimeout(() => {
+          ripples.remove()
+        }, 1000);
+      })
+    })
+  </script>
+</body>
+
 </html>

@@ -1,0 +1,129 @@
+body {
+  background-color: #90EE90;
+}
+.aboutme {
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.social {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.donate {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-1-title {
+  /* margin-top: 110px; */
+  background-color: floralwhite;
+  width: 95%;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-1-description {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-1-language {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-1-level {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-1-download {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+a {
+  position: relative;
+  display: inline-block;
+  padding: 12px 36px;
+  margin: 10px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  overflow: hidden;
+  background: linear-gradient(90deg,#0162c8,#55e7fc);
+}
+a:nth-child(2) {
+  background: linear-gradient(90deg,#755bea,#ff72c0);
+}
+span {
+  position: absolute;
+  background: #fff;
+  transform: translate(50%,50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: animate 1s linear infinite;
+}
+@keyframes animate {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+}
