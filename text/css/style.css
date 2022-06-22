@@ -91,7 +91,77 @@ body {
   padding-right: 5px;
   margin-bottom: -100px;
 }
-a {
+.download-2-title {
+  /* margin-top: 110px; */
+  background-color: floralwhite;
+  width: 95%;
+  text-align: center;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-2-description {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-2-note {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-2-escape {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-2-screenshot {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-2-install {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+.download-2-download {
+  margin-top: 110px;
+  background-color: floralwhite;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
+a.button{
   position: relative;
   display: inline-block;
   padding: 12px 36px;
