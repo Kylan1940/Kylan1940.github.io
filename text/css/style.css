@@ -1,8 +1,17 @@
 body {
-  background-color: #90EE90;
+  background-color: red;
+}
+.tweet {
+  background-color: white;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
 }
 .aboutme {
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -12,7 +21,7 @@ body {
 }
 .social {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -22,7 +31,7 @@ body {
 }
 .donate {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -32,7 +41,7 @@ body {
 }
 .download {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -42,7 +51,7 @@ body {
 }
 .download-1-title {
   /* margin-top: 110px; */
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: center;
   border-color: black;
@@ -52,7 +61,7 @@ body {
 }
 .download-1-description {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -62,7 +71,7 @@ body {
 }
 .download-1-language {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -72,7 +81,7 @@ body {
 }
 .download-1-level {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -82,7 +91,7 @@ body {
 }
 .download-1-download {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -93,7 +102,7 @@ body {
 }
 .download-2-title {
   /* margin-top: 110px; */
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: center;
   border-color: black;
@@ -103,7 +112,7 @@ body {
 }
 .download-2-description {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -113,7 +122,7 @@ body {
 }
 .download-2-note {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -123,7 +132,7 @@ body {
 }
 .download-2-escape {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -133,7 +142,7 @@ body {
 }
 .download-2-screenshot {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -143,7 +152,7 @@ body {
 }
 .download-2-install {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
@@ -153,7 +162,7 @@ body {
 }
 .download-2-download {
   margin-top: 110px;
-  background-color: floralwhite;
+  background-color: white;
   width: 95%;
   text-align: left;
   border-color: black;
