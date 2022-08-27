@@ -170,6 +170,16 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+.maintenance {
+  margin-top: 110px;
+  background-color: white;
+  width: 95%;
+  text-align: left;
+  border-color: black;
+  border-style: solid;
+  padding-left: 5px;
+  margin-bottom: -100px;
+}
 /*a{
   position: relative;
   display: inline-block;
