@@ -11,6 +11,7 @@ body {
   margin-bottom: -100px;
 }
 .aboutme {
+  margin-top: 110px;
   background-color: white;
   width: 95%;
   text-align: left;
@@ -169,6 +170,7 @@ body {
   border-style: solid;
   padding-left: 5px;
   margin-bottom: -100px;
+  position: none;
 }
 .maintenance {
   margin-top: 110px;
@@ -331,7 +333,7 @@ button:hover{
     background-position: 400%;
   }
 } */
-a {
+a.button {
   padding: 5px 35px;
   background-color: #9EEBED;
   border-style: solid;
@@ -340,4 +342,118 @@ a {
   position: relative;
   text-decoration: none;
   color: black;
+}
+/* MENU */
+nav{
+  float: center;
+  padding-left: 5px;
+  width: 95%;
+  background: #fff;
+  margin-top: 5px;
+  border-color: black;
+  border-style: solid; 
+  margin-bottom: -100px;
+}
+nav label{
+  color: black;
+  display: block;
+  cursor: pointer;
+}
+.button span{
+  float: right;
+  line-height: 20px;
+  transition: 0.5s;
+}
+.button span.rotate{
+  transform: rotate(-180deg);
+}
+nav ul {
+  float: right;
+  position: absolute;
+  display: block;
+  background: #fff;
+  list-style: none;
+  color:black;
+  right: 20px;
+  width: 60%;
+  border-color: black;
+  border-style: solid;
+  display: none;
+}
+[id^=btn]:checked + ul{
+  display: block;
+}
+nav .menu:before{
+  position: absolute;
+  content: '';
+  height: 20px;
+  width: 20px;
+  background: white;
+  border-color: black;
+  border-style: solid;
+  right: 20px;
+  top: -10px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+nav ul li{
+  line-height: 40px;
+  cursor: pointer;
+  border-color: black;
+  border-style: solid;
+}
+nav ul li label{
+  font-size: 18px;
+}
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+input{
+  display: none;
+}
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: red;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #ff5733;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
 }
