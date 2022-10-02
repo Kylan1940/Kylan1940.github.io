@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 body {
   background-color: red;
 }
+
 .tweet {
   background-color: white;
   width: 95%;
@@ -10,6 +13,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .aboutme {
   margin-top: 110px;
   background-color: white;
@@ -20,6 +24,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .social {
   margin-top: 110px;
   background-color: white;
@@ -30,6 +35,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .donate {
   margin-top: 110px;
   background-color: white;
@@ -40,6 +46,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download {
   margin-top: 110px;
   background-color: white;
@@ -50,6 +57,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-1-title {
   /* margin-top: 110px; */
   background-color: white;
@@ -60,6 +68,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-1-description {
   margin-top: 110px;
   background-color: white;
@@ -70,6 +79,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-1-language {
   margin-top: 110px;
   background-color: white;
@@ -80,6 +90,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-1-level {
   margin-top: 110px;
   background-color: white;
@@ -90,6 +101,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-1-download {
   margin-top: 110px;
   background-color: white;
@@ -101,6 +113,7 @@ body {
   padding-right: 5px;
   margin-bottom: -100px;
 }
+
 .download-2-title {
   /* margin-top: 110px; */
   background-color: white;
@@ -111,6 +124,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-2-description {
   margin-top: 110px;
   background-color: white;
@@ -121,6 +135,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-2-note {
   margin-top: 110px;
   background-color: white;
@@ -131,6 +146,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-2-escape {
   margin-top: 110px;
   background-color: white;
@@ -141,6 +157,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-2-screenshot {
   margin-top: 110px;
   background-color: white;
@@ -151,6 +168,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-2-install {
   margin-top: 110px;
   background-color: white;
@@ -161,6 +179,7 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
+
 .download-2-download {
   margin-top: 110px;
   background-color: white;
@@ -172,6 +191,7 @@ body {
   margin-bottom: -100px;
   position: none;
 }
+
 .maintenance {
   margin-top: 110px;
   background-color: white;
@@ -182,158 +202,28 @@ body {
   padding-left: 5px;
   margin-bottom: -100px;
 }
-/*a{
-  position: relative;
-  display: inline-block;
-  padding: 12px 36px;
-  margin: 10px 0;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 2px;
-  border-radius: 40px;
-  overflow: hidden;
-  background: linear-gradient(90deg,#0162c8,#55e7fc);
-  border-radius: 100px;
-} 
-a:nth-child(2) {
-  background: linear-gradient(90deg,#755bea,#ff72c0);
-}*/
+
 span {
   position: absolute;
-  background: #fff;
-  transform: translate(50%,50%);
-  pointer-events: none;
-  border-radius: 50%;
-  animation: animate 1s linear infinite;
+  margin-left: 1%;
 }
+
 @keyframes animate {
   0% {
     width: 0px;
     height: 0px;
     opacity: 0.5;
   }
+
   100% {
     width: 50px;
     height: 50px;
     opacity: 0;
   }
 }
-/* From uiverse.io by @alexroumi, modified by Kylan1940 */
-/*a {
- border-radius: 15px;
- color: #212121;
- z-index: 1;
- padding: 12px 25px;
- margin: 0 0;
- margin-bottom: 100px;
- text-decoration: none;
- background: #e8e8e8;
- position: relative;
- font-weight: 1000;
- font-size: 17px;
- -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- transition: all 250ms;
- overflow: hidden;
-}
 
-a::before {
- content: "";
- position: absolute;
- top: 0;
- left: 0;
- height: 100%;
- width: 0;
- border-radius: 15px;
- background-color: #212121;
- z-index: -1;
- -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- transition: all 250ms
-}
-
-a:hover {
- color: #e8e8e8;
-}
-
-a:hover::before {
- width: 100%;
-}
-*/
-
-/*@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-html,body{
-  display: grid;
-  height: 100%;
-  place-items: center;
-  background: #000;
-  overflow: hidden;
-}
-button{
-  position: relative;
-  height: 60px;
-  width: 200px;
-  margin: 0 35px;
-  border-radius: 50px;
-  border: none;
-  outline: none;
-  background: #111;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background 0.5s;
-}
-button:first-child:hover{
-  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-  background-size: 400%;
-}
-button:last-child:hover{
-  background: linear-gradient(90deg, #fa7199, #f5ce62, #e43603, #fa7199);
-  background-size: 400%;
-}
-button:first-child:before,
-button:last-child:before{
-  content: '';
-  position: absolute;
-  background: inherit;
-  top: -5px;
-  right: -5px;
-  bottom: -5px;
-  left: -5px;
-  border-radius: 50px;
-  filter: blur(20px);
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-button:first-child:hover:before,
-button:last-child:hover:before{
-  opacity: 1;
-  z-index: -1;
-}
-button:hover{
-  z-index: 1;
-  animation: glow 8s linear infinite;
-}
-@keyframes glow {
-  0%{
-    background-position: 0%;
-  }
-  100%{
-    background-position: 400%;
-  }
-} */
 a.button {
+  z-index: 0;
   padding: 5px 35px;
   background-color: #9EEBED;
   border-style: solid;
@@ -343,47 +233,58 @@ a.button {
   text-decoration: none;
   color: black;
 }
+
 /* MENU */
-nav{
+
+nav {
+  z-index: 3;
   float: center;
   padding-left: 5px;
   width: 95%;
   background: #fff;
   margin-top: 5px;
   border-color: black;
-  border-style: solid; 
+  border-style: solid;
   margin-bottom: -100px;
 }
-nav label{
+
+nav label {
   color: black;
   display: block;
   cursor: pointer;
 }
-.button span{
-  float: right;
+
+.button span {
+  float: center;
   line-height: 20px;
   transition: 0.5s;
+  z-index: 3;
 }
-.button span.rotate{
+
+.button span.rotate {
+  z-index: 3;
   transform: rotate(-180deg);
 }
+
 nav ul {
-  float: right;
+  float: center;
   position: absolute;
   display: block;
   background: #fff;
   list-style: none;
-  color:black;
-  right: 20px;
-  width: 60%;
+  color: black;
+  width: 95%;
   border-color: black;
   border-style: solid;
   display: none;
+  z-index: 3;
 }
-[id^=btn]:checked + ul{
+
+[id^=btn]:checked+ul {
   display: block;
 }
-nav .menu:before{
+
+nav .menu:before {
   position: absolute;
   content: '';
   height: 20px;
@@ -391,69 +292,79 @@ nav .menu:before{
   background: white;
   border-color: black;
   border-style: solid;
-  right: 20px;
   top: -10px;
   transform: rotate(45deg);
-  z-index: -1;
+  z-index: -2;
 }
-nav ul li{
+
+nav ul li {
   line-height: 40px;
   cursor: pointer;
   border-color: black;
   border-style: solid;
 }
-nav ul li label{
+
+nav ul li label {
   font-size: 18px;
 }
-nav ul li a{
+
+nav ul li a {
   color: black;
   text-decoration: none;
-  display: block;
 }
-input{
+
+input {
   display: none;
 }
-.loader_bg{
-    position: fixed;
-    z-index: 999999;
-    background: red;
-    width: 100%;
-    height: 100%;
+
+.loader_bg {
+  position: fixed;
+  z-index: 999999;
+  background: red;
+  width: 100%;
+  height: 100%;
 }
-.loader{
-    border: 0 soild transparent;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: calc(50vh - 75px);
-    left: calc(50vw - 75px);
+
+.loader {
+  border: 0 soild transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
 }
-.loader:before, .loader:after{
-    content: '';
-    border: 1em solid #ff5733;
-    border-radius: 50%;
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: loader 2s linear infinite;
+
+.loader:before,
+.loader:after {
+  content: '';
+  border: 1em solid #ff5733;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+
+.loader:before {
+  animation-delay: .0s;
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(0);
     opacity: 0;
-}
-.loader:before{
-    animation-delay: .5s;
-}
-@keyframes loader{
-    0%{
-        transform: scale(0);
-        opacity: 0;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        transform: scale(1);
-        opacity: 0;
-    }
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
