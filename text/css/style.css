@@ -203,11 +203,6 @@ body {
   margin-bottom: -100px;
 }
 
-span {
-  position: absolute;
-  margin-left: 1%;
-}
-
 @keyframes animate {
   0% {
     width: 0px;
@@ -268,6 +263,7 @@ nav label {
 
 nav ul {
   float: center;
+  margin-top: 1px;
   position: absolute;
   display: block;
   background: #fff;
@@ -277,13 +273,15 @@ nav ul {
   border-color: black;
   border-style: solid;
   display: none;
-  z-index: 3;
+  z-index: 5;
 }
 
 [id^=btn]:checked+ul {
   display: block;
+  z-index: 5;
 }
 
+/*
 nav .menu:before {
   position: absolute;
   content: '';
@@ -294,8 +292,8 @@ nav .menu:before {
   border-style: solid;
   top: -10px;
   transform: rotate(45deg);
-  z-index: -2;
-}
+  z-index: -5;
+}*/
 
 nav ul li {
   line-height: 40px;
