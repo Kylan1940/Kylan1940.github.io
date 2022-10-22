@@ -322,9 +322,22 @@ a.button {
   border-style: solid;
   border-color: black;
   border-radius: 30px;
-  position: relative;
+  position:relative;
   text-decoration: none;
   color: black;
+}
+
+.buttone {
+  z-index: 0;
+  padding: 5px 35px;
+  background-color: #9EEBED;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+  position:absolute;
+  text-decoration: none;
+  color: black;
+  width: 65%;
 }
 
 /* MENU */
