@@ -315,7 +315,7 @@ body {
   }
 }
 
-a.button {
+.button {
   z-index: 0;
   padding: 5px 35px;
   background-color: #9EEBED;
