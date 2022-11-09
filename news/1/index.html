@@ -9,7 +9,7 @@
   <!-- ADS -->
   <script type='text/javascript' src='//traversefloral.com/7d/2a/09/7d2a09a39eb78fbfc27094a76c874947.js'></script>
   <!-- ADBLOCK -->
-  <script type='text/javascript' src='//traversefloral.com/7d/2a/09/7d2a09a39eb78fbfc27094a76c874947.js'></script>
+  <script src="/js/prebid-ads.js"></script>
   <title>News | Kylan Website</title>
 </head>
 
@@ -23,6 +23,12 @@
             $('.loader_bg').fadeToggle();
         }, 1500);
   </script>
+  <script>
+      if( window.canRunAds === undefined ){
+        // adblocker detected, show fallback
+        showFallbackImage();
+      }
+    </script>
   <div class="top">
     <h4 style="margin-top: 5px; margin-bottom: 5px; text-align: center">Clarification regarding cessation of career as a Pocketmine-MP developer</h4>
   </div>
