@@ -1,2 +1,2 @@
-# Description 
-Kylan1940 Official Github Page. Go to [Kylan1940.netlify.app](Kylan1940.netlify.app/home) for view my page
+# Important
+Kylan1940.github.io is now switched to [web.kylan1940.online](https://web.kylan1940.online)
